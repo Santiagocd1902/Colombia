@@ -30,7 +30,7 @@ function App() {
           <Route path="/informativa" element={<Informativa /> } />
           <Route path="/original" element={<Original /> } />
           <Route path="/favoritos" element={<Favoritos /> } />
-          <Route path="/detalle" element={<Detalles /> } />
+          <Route path="/detalle/:depto/:municipio" element={<Detalles /> } />
       </Routes>
     </Router>
     </>
