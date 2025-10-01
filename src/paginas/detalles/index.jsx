@@ -1,7 +1,7 @@
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
-function Detalle() {
+function Detalles() {
   const { depto, municipio } = useParams();
   const [municipioData, setMunicipioData] = useState(null);
 
@@ -45,4 +45,4 @@ function Detalle() {
   );
 }
 
-export default Detalle;
+export default Detalles;
