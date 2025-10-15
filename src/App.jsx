@@ -3,11 +3,12 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Home from './paginas/home'
-import Detalles from './paginas/detalles'
-import Favoritos from './paginas/favoritos'
-import Informativa from './paginas/informativa'
-import Original from './paginas/original'
+import Home from './paginas/home';
+import Detalles from './paginas/detalles';
+import Favoritos from './paginas/favoritos';
+import Informativa from './paginas/informativa';
+import Original from './paginas/original';
+
 
 
 function App() {
@@ -22,6 +23,8 @@ function App() {
           <Link to="/detalles">Detalles</Link>
           <Link to="/original">Original</Link>
           <Link to="/favoritos">Favoritos</Link>
+
+
         </nav>
 
 
